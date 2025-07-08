@@ -53,6 +53,7 @@ header nav a {
     background: transparent;
     color: #333;
     border: 2px solid #ff5a5f;
+    
 }
 
 .register {
@@ -149,6 +150,9 @@ header nav a {
     font-weight: 600;
     cursor: pointer;
 }
+.logo{
+    display: flex;
+}
 
 @media (max-width: 768px) {
     header {
@@ -160,6 +164,10 @@ header nav a {
     }
     .hero-image {
         margin-top: 20px;
+    }
+    .auth-buttons{
+
+        margin: 20px;
     }
 }
 
@@ -436,4 +444,28 @@ header nav a {
     margin: 0 auto 15px;
     color: #555;
     line-height: 1.6;
+}
+
+#learn-button{
+
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+#regi{
+
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+#spanre{
+
+    color:  #ff5a5f;;
+}
+
+.textsign{
+
+    text-decoration: none;
+    color: #333;
 }
